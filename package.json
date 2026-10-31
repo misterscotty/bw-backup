@@ -1,0 +1,27 @@
+{
+  "name": "bitwarden-backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build --clean && tsc --build",
+    "package:linux": "bash package-linux.sh",
+    "watch": "tsc --build --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/yaml": "^1.9.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "keytar": "^7.9.0",
+    "yaml": "^2.9.1",
+    "yanl": "^0.0.0"
+  }
+}

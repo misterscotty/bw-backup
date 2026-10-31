@@ -1,0 +1,5 @@
+backupDir: /mnt/home/bitwarden-backup
+
+retentionCount: 12
+
+minimumBackupSize: 100000

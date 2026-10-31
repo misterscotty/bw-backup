@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Bitwarden Backup
+Comment=Run a Bitwarden vault backup
+Exec=REPLACE_WITH_PACKAGE_PATH/bitwarden-backup backup
+Terminal=true
+Categories=Utility;
